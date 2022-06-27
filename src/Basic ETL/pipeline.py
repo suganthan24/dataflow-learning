@@ -31,7 +31,7 @@ def run():
     options.view_as(StandardOptions).runner = opts.runner
 
     # Static input and output
-    input = 'gs://{0}/events.json'.format(opts.project)
+    input = 'gs://{0}/events.txt'.format(opts.project)
     output = '{0}:logs.logs'.format(opts.project)
 
     # Table schema for BigQuery
